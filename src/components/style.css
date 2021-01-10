@@ -1,0 +1,43 @@
+
+.login {
+    border: 1px solid #000;
+    margin: 0 auto;
+    display: grid;
+    width: 35%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: lightgrey;
+  }
+  .loginText {
+    text-align: center;
+  }
+  input ,.button{
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px !important;
+    border: 1px solid transparent;
+    width: 250px;
+  }
+  .inputSubmit ,.button{
+    width: 125px;
+    margin: 5px auto !important;
+  }
+  .inputSubmit:active ,.button:active {
+    transform: translateY(1px);
+    filter: saturate(150%);
+  }
+  .inputSubmit:hover ,.button:hover{
+    color: grey;
+    border-color: currentColor;
+    background-color: white;
+  }
+
+.modalInput{
+  background-color: lightgray;
+  padding: 5px;
+    border-radius: 10px;
+    margin: 5px !important;
+    border: 1px solid transparent;
+    width: 450px;
+}
